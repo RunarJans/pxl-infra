@@ -45,6 +45,11 @@ servers = {
     "instance_ipv4_addr" = "5.75.255.184"
     "instance_ipv6_addr" = "2a01:4f8:c17:efec::1"
   }
+  "Seba" = {
+    "instance_fqdn" = "server-of-seba.pxl.bjth.xyz"
+    "instance_ipv4_addr" = "188.245.55.112"
+    "instance_ipv6_addr" = "2a01:4f8:c17:fd86::1"
+  }
   "Ward" = {
     "instance_fqdn" = "server-of-ward.pxl.bjth.xyz"
     "instance_ipv4_addr" = "49.13.2.118"
