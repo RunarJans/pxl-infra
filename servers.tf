@@ -16,7 +16,6 @@ locals {
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOqrPVkvGWeMpVz4a/jyUiKhkOcMi7UjVaRjoTCSTB8A 12302157@student.pxl.be",
       ]
     }
-
     quinten = {
       ssh_keys = [
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILe8frS9W779nR/TVBTc1giVLt2bwfTYnfqMt7D2qozB 12300247@student.pxl.be"
@@ -24,7 +23,7 @@ locals {
     }
     Bjarni = {
       ssh_keys = [
-        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCZu4cb6gCXBrOiOED6vOreITqeXtK7FUIq6mt+Bbwas1PSgq8s5Yrsd544A6slu1tvv2FObsKPcRabD2MXhmDGpSuOYK/zCtC7qotxNWkW8lVZhajbCG+pm8kitkxdzl55BR2Eu4aIMEjc7oOO4j6j1EdQp0BomaDY7weB0Wse/8y7rj+xCvyWnu/ESwnQXhgwFayj15DpB4J5a5YYvNvqTvGABuvbTPofhKXbvu0wgILoPrxDEV2qACxyR2xawLHHz1H3la96WtMzXR2BZCIM4lM1aKUcOH5AKkdViYlncMJ1jJORCLrVwPA/NCn50IU1rmuM/nUeXSYVk43T3VGRqzVN0514Ku3vss1u80OTiB6mBUQBbgvSZwrqqgiSqFWpJyYEtAeUL/2Qr/L48G3lp38lMqD9nQnFFD5+G4bMiQEhOm9SPkp+Cdph+nzXDGb/fxmHPvBI2y/xh+ITzHrkUVPYY1HPrPUkD4N5YEFbg0RfZj3Xo1WF2Ye5mMYwDm8 12302152@student.pxl.be",
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCZu4cb6gCXBrOiOED6vOreITqeXtK7FUIq6mt+Bbwas1PSgq8s5Yrsd544A6slu1tvv2FObsKPcRabD2MXhmDGpSuOYK/zCtC7qotxNWkW8lVZhajbCG+pm8kitkxdzl55BR2Eu4aIMEjc7oOO4j6j1EdQp0BomaDY7weB0Wse/8y7rj+xCvyWnu/ESwnQXhgwFayj15DpB4J5a5YYvNvqTvGABuvbTPofhKXbvu0wgILoPrxDEV2qACxyR2xawLHHz1H3la96WtMzXR2BZCIM4lM1aKUcOH5AKkdViYlncMJ1jJORCLrVwPA/NCn50IU1rmuM/nUeXSYVk43T3VGRqzVN0514Ku3vss1u80OTiB6mBUQBbgvSZwrqqgiSqFWpJyYEtAeUL/2Qr/L48G3lp38lMqD9nQnFFD5+G4bMiQEhOm9SPkp+Cdph+nzXDGb/fxmHPvBI2y/xh+ITzHrkUVPYY1HPrPUkD4N5YEFbg0RfZj3Xo1WF2Ye5mMYwDm8",
       ]
     }
     Bowen = {
