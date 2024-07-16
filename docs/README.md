@@ -1,10 +1,5 @@
 ```
 servers = {
-  "Bjarni" = {
-    "instance_fqdn" = "server-of-bjarni.pxl.bjth.xyz"
-    "instance_ipv4_addr" = "49.13.129.59"
-    "instance_ipv6_addr" = "2a01:4f8:c010:9f14::1"
-  }
   "Bowen" = {
     "instance_fqdn" = "server-of-bowen.pxl.bjth.xyz"
     "instance_ipv4_addr" = "167.235.195.70"
