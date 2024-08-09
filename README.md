@@ -4,7 +4,7 @@ This repository contains all the [Infrastructure as Code] necessary to host all 
 You'll find some Terraform code, and probably some Bash.
 Don't hesitate to reach out if you have any questions, and feel free to open pull requests if you have any improvements to propose.
 
-For the list of currently provisioned servers, check [here](./docs/README.md).
+For the list of currently provisioned servers, check [here](./docs/servers.md).
 
 [Infrastructure as Code]: https://en.wikipedia.org/wiki/Infrastructure_as_code
 

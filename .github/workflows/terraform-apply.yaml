@@ -84,12 +84,11 @@ jobs:
         id: update_readme
         run: |
           {
-            echo '```'
-            terraform output -no-color
-            echo '```'
-          } > docs/README.md
+            terraform output -no-color -json \
+            | jq --raw-output '"|Server|FQDN|IPv4|IPv6|\n|---|---|---|---|\n" + (.servers.value | to_entries | map("|\(.key)|\(.value.instance_fqdn)|`\(.value.instance_ipv4_addr)`|`\(.value.instance_ipv6_addr)`|") | join("\n"))'
+          } > docs/servers.md
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add docs/README.md
-          git commit -am "chore(readme): update README with latest Terraform output"
+          git add docs/servers.md
+          git commit -am "docs(servers): Update servers.md with latest Terraform output"
           git push
